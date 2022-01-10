@@ -1,0 +1,51 @@
+QWidget#SettingWidget{
+	background-color: rgb(207, 231, 244);
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+QPushButton#closeBtn
+{
+	border:none;
+	image:url(://resource/button/shut.png);
+}
+QPushButton#closeBtn:hover
+{
+	background-color:rgb(232,17,35);
+}
+
+QWidget#widget QPushButton
+{
+	color: rgb(255, 255, 255);
+	border-style: solid;
+	border-radius: 5px;	
+	background-color: rgb(6, 163, 220);
+	min-width:100px;
+	min-height:30px;
+}
+
+QWidget#widget QPushButton:hover
+{
+	background-color: rgb(16, 196, 245);
+}
+
+QWidget#widget QPushButton:pressed 
+{
+	background-color: rgb(3, 130, 176);
+}
+
+QWidget#widget QPushButton:checked
+{
+	color: #ffffff;
+	border-bottom:2px solid #43c052;
+}
+
+QStackedWidget{	
+	background-color: qlineargradient(spread:pad,x1:0, y1:0, x2:0, y2:1, stop:0 rgba(232, 241, 249, 0), stop:0.1 rgba(232, 241, 249, 1), stop:0.2 rgba(232, 241, 249, 255), stop:0.7 rgba(232, 241, 249, 255),stop:1 rgba(252, 252, 252, 255));
+	border-radius:5px;
+}
+/*在QGroupBox上预览一下*/
+QGroupBox{	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(232, 241, 249, 0), stop:0.1 rgba(232, 241, 249, 1), stop:0.2 rgba(232, 241, 249, 255), stop:0.7 rgba(232, 241, 249, 255),stop:1 rgba(252, 252, 252, 255));
+	border-radius:5px;
+}
