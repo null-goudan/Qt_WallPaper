@@ -4,9 +4,8 @@
 ### main.cpp 主程序
 ### mainwindow 挂件主窗口
 
-
-    · mainwinodw.h
-    · mainwindow.cpp
+    mainwinodw.h
+    mainwindow.cpp
     继承自 QMainWindow
     
     也实现了任务栏托盘管理
@@ -15,8 +14,8 @@
 
 ### settingwidget 设置窗口
 
-    · settingwidget.h
-    · settingwidget.cpp
+    settingwidget.h
+    settingwidget.cpp
     继承自 QWidget
     
     ![image](https://user-images.githubusercontent.com/74131166/148762433-156b884e-4697-48e4-9693-e678d80dc424.png)
@@ -27,8 +26,8 @@
     挂件调换
 ### desktopwidget 桌面壁纸
 
-    · desktopwidget.h
-    · desktopwidget.cpp
+    desktopwidget.h
+    desktopwidget.cpp
    
     继承自 QLabel
     理论上是接受git格式的动态桌面
